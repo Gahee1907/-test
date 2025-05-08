@@ -30,7 +30,7 @@
     background-color: transparent;
 }
 
-/* screen이 800px보다 작으면 '메뉴항목'글씨 안보이게 */
+/* screen이 800px보다 작으면 '메뉴항목'글씨 안보이게, 영역 재설정 */
 @media screen and (max-width: 800px) {
     .nav__menu {
         display: none;
@@ -39,7 +39,7 @@
         min-width: 0;
     }
 }
-
+/* screen이 400px보다 작으면 nav 안보이게 */
 @media screen and (max-width: 400px) {
     .nav__wrapper {
         display: none;
